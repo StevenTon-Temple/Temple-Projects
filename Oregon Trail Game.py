@@ -5,8 +5,11 @@ def turn():
     maxdays = 15
     while True:
         end_day = input("Do you want to end day Y/Yes or N/No ").capitalize()
-        if end_day == "Y":
+        if end_day == "Y" and end_day != "N":
             days += 1
+            print("Today is day", days)
+        elif end_day == "N":
+            days = days
             print("Today is day", days)
         if days >= maxdays:
             break
