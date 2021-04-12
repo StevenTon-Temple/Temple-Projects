@@ -1,18 +1,19 @@
 import random
+nameofch = input("What is your name? ") 
 def turn():
     days = 0
     maxdays = 15
     while True:
-        choice = input("Your choice? ")
-        if choice == "yes":
+        end_day = input("Do you want to end day Y/Yes or N/No ").capitalize()
+        if end_day == "Y":
             days += 1
-            print(days)
+            print("Today is day", days)
         if days >= maxdays:
             break
 def objectivesurvival():
+    print("Hello", nameofch, "welcome to Objective: Survival")
     action1 = []
     action2 = []
 
-nameofch = input("What is your name? ")
-#objectivesurvival()
+objectivesurvival()
 turn()
