@@ -1,12 +1,18 @@
 import random
-days = 0
-maxdays = 30
-def organtrail():
+def turn():
+    days = 0
+    maxdays = 15
     while True:
+        choice = input("Your choice? ")
         if choice == "yes":
-            days +=1
+            days += 1
             print(days)
         if days >= maxdays:
             break
+def objectivesurvival():
+    action1 = []
+    action2 = []
+
 nameofch = input("What is your name? ")
-choice = input("Your choice? ")
+#objectivesurvival()
+turn()
