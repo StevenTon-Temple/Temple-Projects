@@ -13,8 +13,8 @@ def actionpart():
     choice = input("Action 1 or 2? ")
     while True:
         if choice == '1':
-            print ("The crew's quarters are made up of 5 bedrooms. The quarters are located in the furthest side of the ship past the main floor, family rooms, and research room.\nThe spaceship is built in a structure that certain areas of the ship may be dropped off.\nThe only exception is the main floor and flight deck. Each of these layers have doors you must pass through.\nYou reach the door leading to the crew quarters to find that it is pitch black. Being dark means it has potentially lost all power.")
-            print("The oxygen filtration system is reliant on power in each part of the ship./n You don't know how long the power has been out in the quarters. You may be able to enter without a spacesuit assuming there is still oxygen. You now are tasked with the option to rush in and save your crewmates, or better prepare for the task.")
+            print ("The crew's quarters are made up of 5 bedrooms. The quarters are located in the furthest side of the ship past the main floor, family rooms, and research room.\nThe spaceship is built in a structure that certain areas of the ship may be dropped off.\nThe only exception is the main floor and flight deck. Each of these layers have doors you must pass through.\nYou reach the door leading to the crew quarters to find that it is pitch black.\n Being dark means it has potentially lost all power.\n")
+            print("The oxygen filtration system is reliant on power in each part of the ship.\n You don't know how long the power has been out in the quarters.\nYou may be able to enter without a spacesuit assuming there is still oxygen.\nYou now are tasked with the option to rush in and save your crewmates, or better prepare for the task.\n")
             action2 = {1:"Enter the crew quarters to save your crew mates", 2:"Head to the airlock to recieve your spacesuit."}
             print(action2)
             choice = input("Action 1 or 2? ")
