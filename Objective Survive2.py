@@ -1,12 +1,11 @@
 nameofMC = input("What is your name? ").capitalize()
-def prolouge():
+def actionpart():
+    print("Hello", nameofMC, "welcome to Misson to Mars Objective: Survive") 
     print("You,", nameofMC, "are part of a Nasa space crew tasked with being the first people to inhabit Mars.")
     print("The year is 2032 and you wake up in the flight deck after being knocked unconcious by an impact.")
     print("The ship has collided with something, and it is your objective to survive.")
     print("The flight deck seems to be mostly intact, but you have no idea what has been damaged, or of the whereabout of your crewmates.")
-    print("The control panel of the ship displays critical signs of damage in the crew quarters along with damage to various other areas.It is up to you to decide what to do next.")
-
-def actionpart():
+    print("The control panel of the ship displays critical signs of damage in the crew quarters along with damage to various other areas.It is up to you to decide what to do next.\n")
     action1 = {1:"Make your way to the crew's quarters", 2:"Make your way to the storage to see what remains on the ship"}
     print(action1)
     choice = input("Action 1 or 2? ")
@@ -31,8 +30,8 @@ def actionpart():
                 print("It is pitch black on the other side, but with each moment you wait your crewmates may be in further danger.")
                 print("You begin to open the door until it is unlocked. The pressure drops and the absence of oxygen fills the airlock.")
                 print("Short on time you try and close the door to reseal the airlock but with each second passing you begin to lose conciousness.You have failed your mission.")
-                break
                 return False
+               
             elif choice == "4":
                 print("You make your way to the main airlock which leads to the outside of the spacecraft. This airlock contains spacesuits normally used for spacewalks.The crew quarters are one of the parts of the ship that has artificial gravity.")
                 print("This makes spacesuits unusable there, but since the power is out you can freely travel. You put on the space suit and head to the crew quarters.")
@@ -506,7 +505,7 @@ def actionpart():
                                         print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
                                         print("You have failed your mission, but you did make it to Mars.")
                                         return False
-                                    elif choice == "4:
+                                    elif choice == "4":
                                         print("You decide that it is best to recourse the ship and head back to Earth.")
                                         print("The complications lie in the fact that you have no contact with the ground.")
                                         print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
@@ -534,7 +533,7 @@ def actionpart():
             print("You don't know how long the power has been out in the quarters.")
             print("You may be able to enter without a spacesuit assuming there is still oxygen.")
             print("You now are tasked with the option to rush in and save your crewmates, or better prepare for the task.")
-            action2 = {3"Enter the crew quarters to save your crew mates", 4"Head to the airlock to recieve your spacesuit."}
+            action2 = {3:"Enter the crew quarters to save your crew mates", 4:"Head to the airlock to recieve your spacesuit."}
             print(action2)
             choice = input("Action 3 or 4? ")
             if choice == "3":
