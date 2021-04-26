@@ -1032,16 +1032,15 @@ def actionpart():
 
                   
 def replay():
-    if actionpart() is not True:
-        answer = input("Do you want to replay the story Y/Yes or N/No? ").capitalize
-        if answer == "Y":
-            actionpart()
+    answer = input("Do you want to replay the story Y/Yes or N/No?\n").capitalize()
+    if answer == "Y":
+        objectivesurvival()
+    else:
+        print("Thanks For playing Misson to Mars Objective: Survive, we wish you a nice day/night by the developing team sweat and tears.")
+        
             
 def objectivesurvival():
-    print("Hello", nameofMC, "welcome to Objective: Survival") 
-    prolouge()
     actionpart()
     replay()
 
 objectivesurvival()
-
