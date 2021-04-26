@@ -1,3 +1,8 @@
+Group people name:
+1.Stanley Micheal Lipisko - Freshman 
+2.Brianna Burton - Sophmore  
+3.Steven Ton - Freshman 
+
 Problems whe meet while coding:
 1.Debugging 
 2.Stories with multiple paths take hours of debugging
@@ -11,3 +16,5 @@ Fun while coding:
 Overcame the problems:
 1.We worked for hours on debugging no trick to overcome it just hard work and dedication.
 2.We slightly tweaked our game from the original version and instead made a full text based adventure game
+
+Link to project video: https://www.youtube.com/watch?v=9ZvkEI0x2DI&ab_channel=StanL
