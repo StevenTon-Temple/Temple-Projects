@@ -110,6 +110,8 @@ def actionpart():
                                 print("It is impossible for it to be a crewmate since the oxygen has been gone for so long, so you decide to make your way to the release point.")
                                 print("As You are about to release the crew quarters you hear a voice callout 'Help its me Alex!,' knowing everything you saw on the inside of the crew quarters.\n")
                                 action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
+                    
+                                print(action7)
                                 choice = input("Action 1 or 3? ")
                                 if choice == "1":
                                     print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
@@ -120,6 +122,7 @@ def actionpart():
                                     print("You step inside looking around for Alex who was crying for help.")
                                     print("There is no one immediately near the door as you would have expected from the cries.")
                                     print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.")
+                                    break
                                 elif choice == "3":
                                     print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
                                     print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
@@ -128,26 +131,28 @@ def actionpart():
                                     print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
                                     print("The threat that was on the ship threatening your life is now gone.")
                                     print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")                    
-                                    action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
-                                    print (action7)
+                                    action10 = {1: "Finish the trip to Mars", 3: "Recourse the mission back to Earth"}
+                                    print(action10)
                                     choice = input("Action 1 or 3? ")
                                     if choice == "1":
-                                        print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
-                                        print("You face the airlock and begin opening the door.")
-                                        print("The cries do not let up,and as you pass through to the second door of the airlock the inside goes quiet.")
-                                        print("You no longer hear the cries assuming that your crewmate is just waiting for you you begin to open the door.")
-                                        print("The door opens into a dark room with no oxygen as you had left it previously.")
-                                        print("You step inside looking around for Alex who was crying for help.")
-                                        print("There is no one immediately near the door as you would have expected from the cries.")
-                                        print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.\n")
+                                        print("You decide that it is best you finish the mission you were sent to accomplish.")
+                                        print("The ship is already on path to Mars there is nothing for you to do.")
+                                        print("The communications are destroyed beyond repair from the object impacting with the ship.")
+                                        print("All you can do now is let the days go by as your ship approaches Mars.")
+                                        print("The primary floors of the ship contain enough food and water for a one way trip.")
+                                        print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
+                                        print("You have failed your mission, but you did make it to Mars.")
+                                        break
                                     elif choice == "3":
-                                        print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
-                                        print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
-                                        print("The decision has already been made, and you pull the lever.")
-                                        print("The ship creates a loud whine as the crew quarters is seperated from the body of the ship.")
-                                        print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
-                                        print("The threat that was on the ship threatening your life is now gone.")
-                                        print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")
+                                        print("You decide that it is best to recourse the ship and head back to Earth.")
+                                        print("The complications lie in the fact that you have no contact with the ground.")
+                                        print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
+                                        print("Assuming that the HQ is panicked about the loss of connection they may anticipate your return home meaning you will more than likely survive.")
+                                        print("All there is to do now is wait out the days back to Earth.")
+                                        print("The ship is equipped with solar panels around the flight deck that act as sails powered by sunlight.")
+                                        print("This means that all you have to do is wait for the ship to take you home. This was the only true way to survive.")
+                                        print("Your comrades died in vein, but your objective is complete. You have passed the mission.")
+                                        break
                         elif choice == "3":
                             print("You decide to investigate the object that landed on your ship.")
                             print("You make your way across the top of the ship toward the large reflective object.")
@@ -263,6 +268,7 @@ def actionpart():
                             print("It is impossible for it to be a crewmate since the oxygen has been gone for so long, so you decide to make your way to the release point.")
                             print("As You are about to release the crew quarters you hear a voice callout 'Help its me Alex!,' knowing everything you saw on the inside of the crew quarters.\n")
                             action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
+                            print(action7)
                             choice = input("Action 1 or 3? ")
                             if choice == "1":
                                 print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
@@ -273,6 +279,7 @@ def actionpart():
                                 print("You step inside looking around for Alex who was crying for help.")
                                 print("There is no one immediately near the door as you would have expected from the cries.")
                                 print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.")
+                                break
                             elif choice == "3":
                                 print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
                                 print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
@@ -281,26 +288,28 @@ def actionpart():
                                 print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
                                 print("The threat that was on the ship threatening your life is now gone.")
                                 print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")                    
-                                action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
-                                print (action7)
+                                action10 = {1: "Finish the trip to Mars", 3: "Recourse the mission back to Earth"}
+                                print(action10)
                                 choice = input("Action 1 or 3? ")
                                 if choice == "1":
-                                    print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
-                                    print("You face the airlock and begin opening the door.")
-                                    print("The cries do not let up,and as you pass through to the second door of the airlock the inside goes quiet.")
-                                    print("You no longer hear the cries assuming that your crewmate is just waiting for you you begin to open the door.")
-                                    print("The door opens into a dark room with no oxygen as you had left it previously.")
-                                    print("You step inside looking around for Alex who was crying for help.")
-                                    print("There is no one immediately near the door as you would have expected from the cries.")
-                                    print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.\n")
+                                    print("You decide that it is best you finish the mission you were sent to accomplish.")
+                                    print("The ship is already on path to Mars there is nothing for you to do.")
+                                    print("The communications are destroyed beyond repair from the object impacting with the ship.")
+                                    print("All you can do now is let the days go by as your ship approaches Mars.")
+                                    print("The primary floors of the ship contain enough food and water for a one way trip.")
+                                    print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
+                                    print("You have failed your mission, but you did make it to Mars.")
+                                    break
                                 elif choice == "3":
-                                    print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
-                                    print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
-                                    print("The decision has already been made, and you pull the lever.")
-                                    print("The ship creates a loud whine as the crew quarters is seperated from the body of the ship.")
-                                    print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
-                                    print("The threat that was on the ship threatening your life is now gone.")
-                                    print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")
+                                    print("You decide that it is best to recourse the ship and head back to Earth.")
+                                    print("The complications lie in the fact that you have no contact with the ground.")
+                                    print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
+                                    print("Assuming that the HQ is panicked about the loss of connection they may anticipate your return home meaning you will more than likely survive.")
+                                    print("All there is to do now is wait out the days back to Earth.")
+                                    print("The ship is equipped with solar panels around the flight deck that act as sails powered by sunlight.")
+                                    print("This means that all you have to do is wait for the ship to take you home. This was the only true way to survive.")
+                                    print("Your comrades died in vein, but your objective is complete. You have passed the mission.")
+                                    break
                         elif choice == "3":
                             print("You decide to investigate the object that landed on your ship.")
                             print("You make your way across the top of the ship toward the large reflective object.")
@@ -407,6 +416,7 @@ def actionpart():
                                 print("You step inside looking around for Alex who was crying for help.")
                                 print("There is no one immediately near the door as you would have expected from the cries.")
                                 print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.\n")
+                                break
                             elif choice == "3":
                                 print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
                                 print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
@@ -415,6 +425,28 @@ def actionpart():
                                 print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
                                 print("The threat that was on the ship threatening your life is now gone.")
                                 print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")
+                                action10 = {1: "Finish the trip to Mars", 3: "Recourse the mission back to Earth"}
+                                print(action10)
+                                choice = input("Action 1 or 3? ")
+                                if choice == "1":
+                                    print("You decide that it is best you finish the mission you were sent to accomplish.")
+                                    print("The ship is already on path to Mars there is nothing for you to do.")
+                                    print("The communications are destroyed beyond repair from the object impacting with the ship.")
+                                    print("All you can do now is let the days go by as your ship approaches Mars.")
+                                    print("The primary floors of the ship contain enough food and water for a one way trip.")
+                                    print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
+                                    print("You have failed your mission, but you did make it to Mars.")
+                                    break
+                                elif choice == "3":
+                                    print("You decide that it is best to recourse the ship and head back to Earth.")
+                                    print("The complications lie in the fact that you have no contact with the ground.")
+                                    print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
+                                    print("Assuming that the HQ is panicked about the loss of connection they may anticipate your return home meaning you will more than likely survive.")
+                                    print("All there is to do now is wait out the days back to Earth.")
+                                    print("The ship is equipped with solar panels around the flight deck that act as sails powered by sunlight.")
+                                    print("This means that all you have to do is wait for the ship to take you home. This was the only true way to survive.")
+                                    print("Your comrades died in vein, but your objective is complete. You have passed the mission.")
+                                    break
                         elif choice == "3": 
                             print("You decide to investigate the object that landed on your ship.")
                             print("You make your way across the top of the ship toward the large reflective object.")
@@ -592,6 +624,7 @@ def actionpart():
                                 print("It is impossible for it to be a crewmate since the oxygen has been gone for so long, so you decide to make your way to the release point.")
                                 print("As You are about to release the crew quarters you hear a voice callout 'Help its me Alex!,' knowing everything you saw on the inside of the crew quarters.\n")
                                 action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
+                                print(action7)
                                 choice = input("Action 1 or 3? ")
                                 if choice == "1":
                                     print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
@@ -602,6 +635,7 @@ def actionpart():
                                     print("You step inside looking around for Alex who was crying for help.")
                                     print("There is no one immediately near the door as you would have expected from the cries.")
                                     print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.")
+                                    break
                                 elif choice == "3":
                                     print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
                                     print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
@@ -610,26 +644,28 @@ def actionpart():
                                     print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
                                     print("The threat that was on the ship threatening your life is now gone.")
                                     print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")                    
-                                    action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
-                                    print (action7)
+                                    action10 = {1: "Finish the trip to Mars", 3: "Recourse the mission back to Earth"}
+                                    print(action10)
                                     choice = input("Action 1 or 3? ")
                                     if choice == "1":
-                                        print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
-                                        print("You face the airlock and begin opening the door.")
-                                        print("The cries do not let up,and as you pass through to the second door of the airlock the inside goes quiet.")
-                                        print("You no longer hear the cries assuming that your crewmate is just waiting for you you begin to open the door.")
-                                        print("The door opens into a dark room with no oxygen as you had left it previously.")
-                                        print("You step inside looking around for Alex who was crying for help.")
-                                        print("There is no one immediately near the door as you would have expected from the cries.")
-                                        print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.\n")
+                                        print("You decide that it is best you finish the mission you were sent to accomplish.")
+                                        print("The ship is already on path to Mars there is nothing for you to do.")
+                                        print("The communications are destroyed beyond repair from the object impacting with the ship.")
+                                        print("All you can do now is let the days go by as your ship approaches Mars.")
+                                        print("The primary floors of the ship contain enough food and water for a one way trip.")
+                                        print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
+                                        print("You have failed your mission, but you did make it to Mars.")
+                                        break
                                     elif choice == "3":
-                                        print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
-                                        print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
-                                        print("The decision has already been made, and you pull the lever.")
-                                        print("The ship creates a loud whine as the crew quarters is seperated from the body of the ship.")
-                                        print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
-                                        print("The threat that was on the ship threatening your life is now gone.")
-                                        print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")
+                                        print("You decide that it is best to recourse the ship and head back to Earth.")
+                                        print("The complications lie in the fact that you have no contact with the ground.")
+                                        print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
+                                        print("Assuming that the HQ is panicked about the loss of connection they may anticipate your return home meaning you will more than likely survive.")
+                                        print("All there is to do now is wait out the days back to Earth.")
+                                        print("The ship is equipped with solar panels around the flight deck that act as sails powered by sunlight.")
+                                        print("This means that all you have to do is wait for the ship to take you home. This was the only true way to survive.")
+                                        print("Your comrades died in vein, but your objective is complete. You have passed the mission.")
+                                        break
                         elif choice == "3":
                             print("You decide to investigate the object that landed on your ship.")
                             print("You make your way across the top of the ship toward the large reflective object.")
@@ -744,6 +780,7 @@ def actionpart():
                             print("It is impossible for it to be a crewmate since the oxygen has been gone for so long, so you decide to make your way to the release point.")
                             print("As You are about to release the crew quarters you hear a voice callout 'Help its me Alex!,' knowing everything you saw on the inside of the crew quarters.\n")
                             action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
+                            print(action7)
                             choice = input("Action 1 or 3? ")
                             if choice == "1":
                                 print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
@@ -754,6 +791,7 @@ def actionpart():
                                 print("You step inside looking around for Alex who was crying for help.")
                                 print("There is no one immediately near the door as you would have expected from the cries.")
                                 print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.")
+                                break
                             elif choice == "3":
                                 print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
                                 print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
@@ -762,26 +800,29 @@ def actionpart():
                                 print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
                                 print("The threat that was on the ship threatening your life is now gone.")
                                 print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")                    
-                                action7 = {1: "Open the airlock and save who is calling for help", 3: "Release the crew Quarters regardless of the cries"}
-                                print (action7)
+                                action10 = {1: "Finish the trip to Mars", 3: "Recourse the mission back to Earth"}
+                                print(action10)
                                 choice = input("Action 1 or 3? ")
                                 if choice == "1":
-                                    print("Even with the amount of time the crew quarters was out of power, and what you saw inside you choose to enter.")
-                                    print("You face the airlock and begin opening the door.")
-                                    print("The cries do not let up,and as you pass through to the second door of the airlock the inside goes quiet.")
-                                    print("You no longer hear the cries assuming that your crewmate is just waiting for you you begin to open the door.")
-                                    print("The door opens into a dark room with no oxygen as you had left it previously.")
-                                    print("You step inside looking around for Alex who was crying for help.")
-                                    print("There is no one immediately near the door as you would have expected from the cries.")
-                                    print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.\n")
+                                    print("You decide that it is best you finish the mission you were sent to accomplish.")
+                                    print("The ship is already on path to Mars there is nothing for you to do.")
+                                    print("The communications are destroyed beyond repair from the object impacting with the ship.")
+                                    print("All you can do now is let the days go by as your ship approaches Mars.")
+                                    print("The primary floors of the ship contain enough food and water for a one way trip.")
+                                    print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
+                                    print("You have failed your mission, but you did make it to Mars.")
+                                    break
                                 elif choice == "3":
-                                    print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
-                                    print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
-                                    print("The decision has already been made, and you pull the lever.")
-                                    print("The ship creates a loud whine as the crew quarters is seperated from the body of the ship.")
-                                    print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
-                                    print("The threat that was on the ship threatening your life is now gone.")
-                                    print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")
+                                    print("You decide that it is best to recourse the ship and head back to Earth.")
+                                    print("The complications lie in the fact that you have no contact with the ground.")
+                                    print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
+                                    print("Assuming that the HQ is panicked about the loss of connection they may anticipate your return home meaning you will more than likely survive.")
+                                    print("All there is to do now is wait out the days back to Earth.")
+                                    print("The ship is equipped with solar panels around the flight deck that act as sails powered by sunlight.")
+                                    print("This means that all you have to do is wait for the ship to take you home. This was the only true way to survive.")
+                                    print("Your comrades died in vein, but your objective is complete. You have passed the mission.")
+                                    break
+                                    
                     elif choice == "3":
                         print("You decide to investigate the object that landed on your ship.")
                         print("You make your way across the top of the ship toward the large reflective object.")
@@ -888,6 +929,7 @@ def actionpart():
                                 print("You step inside looking around for Alex who was crying for help.")
                                 print("There is no one immediately near the door as you would have expected from the cries.")
                                 print("Just as fear, and doubt enter something cries out above you and drops from the ceiling.You have failed your mission.\n")
+                                break
                             elif choice == "3":
                                 print("Despite the convincing sounds of a crewmate crying out to you you choose to release the crew quarters.")
                                 print("You make your way to the release point and before you pull the lever the cries grow even louder begging for help.")
@@ -896,6 +938,28 @@ def actionpart():
                                 print("You make your way to the window of the door that was previously an airlock and watch as the crew quarters, and mysterious shape drift off course of your spacecraft.")
                                 print("The threat that was on the ship threatening your life is now gone.")
                                 print("Your only remaining objective is to survive and finish the trip to Mars or recourse your mission and head back home.\n")
+                                action10 = {1: "Finish the trip to Mars", 3: "Recourse the mission back to Earth"}
+                                print(action10)
+                                choice = input("Action 1 or 3? ")
+                                if choice == "1":
+                                    print("You decide that it is best you finish the mission you were sent to accomplish.")
+                                    print("The ship is already on path to Mars there is nothing for you to do.")
+                                    print("The communications are destroyed beyond repair from the object impacting with the ship.")
+                                    print("All you can do now is let the days go by as your ship approaches Mars.")
+                                    print("The primary floors of the ship contain enough food and water for a one way trip.")
+                                    print("The cargo bay being destroyed in the impact ruined any chances of you being able to inhabit Mars.\nYou will make it to Mars, but you will not survive.\n")
+                                    print("You have failed your mission, but you did make it to Mars.")
+                                    break
+                                elif choice == "3":
+                                    print("You decide that it is best to recourse the ship and head back to Earth.")
+                                    print("The complications lie in the fact that you have no contact with the ground.")
+                                    print("There is enough food and water within the primary floors of the ship, but this does not mean the landing will be safe.")
+                                    print("Assuming that the HQ is panicked about the loss of connection they may anticipate your return home meaning you will more than likely survive.")
+                                    print("All there is to do now is wait out the days back to Earth.")
+                                    print("The ship is equipped with solar panels around the flight deck that act as sails powered by sunlight.")
+                                    print("This means that all you have to do is wait for the ship to take you home. This was the only true way to survive.")
+                                    print("Your comrades died in vein, but your objective is complete. You have passed the mission.")
+                                    break
                         elif choice == "3": 
                             print("You decide to investigate the object that landed on your ship.")
                             print("You make your way across the top of the ship toward the large reflective object.")
